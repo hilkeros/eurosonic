@@ -13,3 +13,5 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+.rvmrc
+.rvmrc.01.05.2012-20:44:20
