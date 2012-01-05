@@ -1,0 +1,89 @@
+body{
+	color:rgb(175,175,175);
+	font: 13px/1.5 "arial", courier, monospace, arial, sans-serif;
+}
+
+#footer {
+	background:rgb(0, 0, 0) url(/assets/amatorski_footer.jpg)  0 100%;
+	  background-repeat: no-repeat;
+	  width: 1140px;
+	  height: 200px;
+	  margin: 0 auto;
+}
+
+/* Headers */
+
+h1, h2, h3, h4, p, ul, blockquote{
+	margin:0 20px 22px 0;
+}
+h1{
+  color:rgb(255, 255, 255);
+	font-size:24px;
+	font-weight:bold;
+  line-height:1em;
+}
+h2, h3{
+	color:rgb(180,180,190);
+	font-size:12px;
+	line-height:18px;
+	text-transform:uppercase;
+	letter-spacing: 0.045em;
+}
+
+/* Links */
+
+a{
+	font-weight:bold;
+	text-decoration:none;
+	-webkit-transition: color .2s linear;
+}
+a:link{
+	color:rgb(120,170,180);
+}
+a:visited{
+	color:rgb(70,90,90);
+}
+a:hover,
+a:active,
+a:focus{
+  color:rgb(255, 255, 255);
+}
+
+/* Defaults */
+
+strong{
+	font-weight:bold;
+}
+em{
+	font-style:italic;
+}
+sup, sub{
+	line-height:0;
+}
+abbr, acronym{
+	border-bottom: 1px dotted #666;
+}
+
+body{
+	background:rgb(0,0,0);
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+	text-align:left;
+}
+
+#content-wrap{
+  background:url(/assets/amatorski_pattern.jpg) repeat-y center -590px;
+  padding-top: 10px;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#header{
+  background:rgb(0, 0, 0) url(/assets/amatorski_header.jpg)  0 100%;
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 349px;
+  margin: 0 auto;
+}
