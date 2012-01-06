@@ -10,11 +10,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120104150750) do
+ActiveRecord::Schema.define(:version => 20120105153259) do
 
   create_table "contacts", :force => true do |t|
     t.string   "name"
     t.string   "video_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "pages", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end

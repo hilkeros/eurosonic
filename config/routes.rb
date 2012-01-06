@@ -3,6 +3,7 @@ Eurosonic::Application.routes.draw do
 root :to => 'pages#main'
 
 resources :contacts
+resources :pages, :only => :show
    
  
 match "/:name" => "contacts#show", :as => :root_contact

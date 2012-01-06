@@ -1,17 +1,17 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Name:</b>
-  <%= @contact.name %>
+  An artist would be nothing without creativity. So let's start with this personalised video, the result of musical, cinematographic and web creativity.
 </p>
 
 <p>
-  <b>Video url:</b>
+  
 	<%= video_tag @contact.video_url, :size => "480x360", :controls => true, :autoplay => true %>
 	
-  <%= @contact.video_url %>
+  
 </p>
 
 
-<%= link_to 'Edit', edit_contact_path(@contact) %> |
-<%= link_to 'Back', contacts_path %>
+<p>Curious how we made this movie?</p>
+
+<p>And now something more about this band...</p>
