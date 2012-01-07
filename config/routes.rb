@@ -9,6 +9,8 @@ resources :pages, :only => :show
 match "/:name" => "contacts#show", :as => :root_contact
 match "/:name/edit" => "contacts#edit", :as => :edit_contact
 
+get "pages/magic"
+
  
 
   # The priority is based upon order of creation:
